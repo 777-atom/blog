@@ -1,0 +1,87 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+    <title>web disain</title>
+    <meta charset="utf-8">
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyboard" content="ключевые слова">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="./css/skins/color-1.css">
+    <!-- === Style Switcher ===-->
+    <link rel="stylesheet" type="text/css" href="./css/skins/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" type="text/css" href="./css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" type="text/css" href="./css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" type="text/css" href="./css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" type="text/css" href=".css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="./css/style-switcher.css">
+    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+    <meta name="robots" content="index, follow"> 
+</head>
+<body>
+    <!-- === Main-Container Start === -->
+    <div class="main-countainer">
+        <!-- === MS4 Start === -->
+        <div class="MS4">
+            <div class="nav-toggler">
+                <span></span>
+            </div>
+            <ul class="nav">
+                <li><a href="./index.html#home" class="active"><i class="fa fa-home"></i> Главная</a></li>
+                <li><a href="./about_me.html#about"><i class="fa fa-user"></i> О нас</a></li>
+                <li><a href="./index.html#service"><i class="fa fa-list"></i> Проекты</a></li>
+                <li><a href="./new.html#news"><i class="fa fa-briefcase"></i> Новости</a></li>
+                <li><a href="./index.html#gallery1"><i class="fa fa-globe-europe"></i> Галерея</a></li>
+                <li><a href="./index.html#contacts"><i class="fa fa-comments"></i> Контакты</a></li>
+            </ul>
+        </div>
+        <!-- === MS4 End === -->
+        <!-- === News Section Start === -->
+        <div class="main-content">
+            <section class="news section" id="news">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Тренажеры</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="context padd-15 message">
+                            <h4>Спортивные Тренажеры</h4>
+                            <p><img src="./img/football.jpg" width="500px" height="300px"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        <!-- === News Section End === -->
+        </div>
+    </div>
+    <!-- === Main-Contant End === -->
+    <!-- === Style Switcher Start === -->
+    <div class="style-switcher">
+        <div class="style-switcher-toggler s-icon">
+            <i class="fas fa-cog fa-spin"></i>
+        </div>
+        <div class="day-night s-icon">
+            <i class="fas"></i>
+        </div>
+        <h4>Цветовая Тема</h4>
+        <div class="colors">
+            <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+            <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+            <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+            <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+            <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+        </div>
+    </div>
+    <!-- === Style Switcher End === -->
+    <!-- === Js gallery === -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+    <script src="js/gallery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" integrity="sha512-3J8teBiHrSyaaRBajZyIEtpDsXdPq1gsznKWIVb5CnorQuFhjWGhWe54z8YNnHHr7MZuExb9m5kvf964HiT1Sw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/script.js"></script>
+    <script src="js/style-switcher.js"></script>
+</body>
+</html>
